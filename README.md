@@ -22,7 +22,7 @@ It also generates TypeScript types, JSON maps of the generated code-points, allo
 ### Install
 
 ```bash
-npm install -g fantasticon
+npm install -g zupit-fantasticon
 ```
 
 ## Use
