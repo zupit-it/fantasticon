@@ -4,7 +4,7 @@
   "description": "Icon font generation tool",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tancredi/fantasticon.git"
+    "url": "git+https://github.com/zupit-it/fantasticon"
   },
   "keywords": [
     "icons",
@@ -13,11 +13,11 @@
     "svg",
     "vector"
   ],
-  "author": "Tancredi Trugenberger",
+  "author": "Deyan Koba",
   "bugs": {
-    "url": "https://github.com/tancredi/fantasticon/issues"
+    "url": "https://github.com/zupit-it/fantasticon/issues"
   },
-  "homepage": "https://github.com/tancredi/fantasticon#readme",
+  "homepage": "https://github.com/zupit-it/fantasticon#readme",
   "main": "lib/index.js",
   "bin": {
     "fantasticon": "bin/fantasticon"
