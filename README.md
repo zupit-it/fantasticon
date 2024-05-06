@@ -30,7 +30,7 @@ npm install -g zupit-fantasticon
 ### Quick usage
 
 ```bash
-fantasticon my-icons -o icon-dist
+zupit-fantasticon my-icons -o icon-dist
 ```
 
 ### Command-line
@@ -38,7 +38,7 @@ fantasticon my-icons -o icon-dist
 **Note:** Not all options can be specified through the command line - for `formatOptions`, `pathOptions`, `getIconId` and `templates` use a [configuration file](#configuration-file) or the JavaScript [API](#api).
 
 ```
-Usage: fantasticon [options] [input-dir]
+Usage: zupit-fantasticon [options] [input-dir]
 
 Options:
   -V, --version                output the version number
@@ -135,7 +135,7 @@ module.exports = {
 #### Simple usage
 
 ```js
-import { generateFonts } from 'fantasticon';
+import { generateFonts } from 'zupit-fantasticon';
 
 generateFonts().then(results => console.log('Done', results));
 ```
@@ -143,7 +143,7 @@ generateFonts().then(results => console.log('Done', results));
 #### Options
 
 ```js
-import { generateFonts } from 'fantasticon';
+import { generateFonts } from 'zupit-fantasticon';
 
 generateFonts({
   name: 'icons',
