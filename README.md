@@ -25,7 +25,7 @@ It also generates TypeScript types, JSON maps of the generated code-points, allo
 npm install -g zupit-fantasticon
 ```
 
-## Use
+## Usage
 
 ### Quick usage
 
@@ -129,6 +129,34 @@ module.exports = {
   }) => [index, basename].join('_') // '0_foo'
 };
 ```
+
+### Angular
+
+#### Setup
+Once installed the package, you need to create two folders in your project: one for the SVG files and another for the generated files.
+
+In the `package.json` you can add the following script for convenience:
+
+```json
+"scripts": {
+  ...
+  "generate-icons": "node node_modules/zupit-fantasticon/bin/fantasticon <PATH_TO_SVG_ICONS_FOLDER> -o <PATH_TO_OUTPUT_FOLDER>"
+  ...
+},
+```
+
+Then you can run `npm run generate-icons` to generate the icon font.
+After generating the assets, in the output folder you will find the `icons.css` file, this file needs to be included in the `index.html` file like so:
+`<link href="<PATH_TO_OUTPUT_FOLDER>/icons.css" rel="stylesheet">`
+
+#### Usage
+You can use the icons in your Angular components like so:
+
+```html
+<i class="icon icon-<ICON_NAME>"></i>
+```
+
+where `<ICON_NAME>` is the name of the generated icon found in the `icons.ts` enum.
 
 ### API
 
