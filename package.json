@@ -1,6 +1,6 @@
 {
-  "name": "zupit-fantasticon",
-  "version": "1.0.1",
+  "name": "@zupit-it/fantasticon",
+  "version": "1.0.0",
   "description": "Icon font generation tool",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
     "svg",
     "vector"
   ],
-  "author": "Deyan Koba",
+  "author": "Zupit",
   "bugs": {
     "url": "https://github.com/zupit-it/fantasticon/issues"
   },
