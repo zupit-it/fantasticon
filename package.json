@@ -1,6 +1,6 @@
 {
   "name": "@zupit-it/fantasticon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Icon font generation tool",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/zupit-it/fantasticon#readme",
   "main": "lib/index.js",
   "bin": {
-    "fantasticon": "bin/fantasticon"
+    "zupit-fantasticon": "bin/fantasticon"
   },
   "license": "MIT",
   "scripts": {
