@@ -140,7 +140,7 @@ In the `package.json` you can add the following script for convenience:
 ```json
 "scripts": {
   ...
-  "generate-icons": "node node_modules/zupit-fantasticon/bin/fantasticon <PATH_TO_SVG_ICONS_FOLDER> -o <PATH_TO_OUTPUT_FOLDER>"
+  "generate-icons": "node node_modules/@zupit-it/fantasticon/bin/fantasticon <PATH_TO_SVG_ICONS_FOLDER> -o <PATH_TO_OUTPUT_FOLDER>"
   ...
 },
 ```
